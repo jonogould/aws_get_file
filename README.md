@@ -14,12 +14,8 @@ This script runs in terminal.
 To get these tools running, you need the following dependencies, available off npm:
 
 
-- [commander](http://visionmedia.github.com/commander.js)
 - [shelljs](http://shelljs.org)
 - [underscorejs](http://underscorejs.org)
-- [cli-color](https://npmjs.org/package/cli-color)
-- [awalk](https://github.com/TravelGround/awalk)
-- [utils](https://github.com/TravelGround/utils)
 
 To install this dependency (the easy way), run the following command from the ``` aws_get_file ``` root dir:
 
@@ -38,10 +34,7 @@ Lastly make the script executable using ```chmod +x aws_get_file.js```
 
 How do you use ``` aws_get_file ```, I hear you asking? Well:
 
-- Open terminal
-- Navigate to the ``` aws_get_file ``` root dir
-- Type ``` ./aws_get_file ``` and press enter
-- There are your helpful instructions :D
+Add it to your ```node_modules``` folder and include it into your script using ```var aws_get_file = require('aws_get_file').aws_get_file;```.
 
 ## Examples
 
