@@ -1,4 +1,10 @@
 /*
+*	aws_get_file.js
+*	========================================================
+*
+*	Author: 	jono gould
+*	Company: 	TravelGround.com
+*	Date: 		3 May 2013
 *
 *	Description:
 *	Function to download files from AWS S3
@@ -6,10 +12,12 @@
 *	Use this function to download files from your s3 bucket. Requires knox.
 *	Make an argument null if not in use.
 *
+*	========================================================
+*	
 *	Usage: 				aws_get_file(array_of_files, null, root, destination_dir, aws_connection, function(results){});
 *	or from txt file: 	aws_get_file(null, 'test.txt', root, destination_dir, aws_connection, function(results){
 *
-*	path 				= shell.cat('list.txt').split('\n');
+*	path 				= shell.cat('list.txt').split('\n'); (if it's a file that contains the list, otherwise array)
 *	file_name 			= './downloads'
 *	root 				= The host where files will start being saved
 *	destination_dir 	= The path where files are saved. * NOTE: make 'null' to copy input file's path structure
